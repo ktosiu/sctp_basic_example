@@ -24,3 +24,5 @@ add_executable(sctp_client sctp_client.c)
 target_link_libraries(sctp_server sctp)
 target_link_libraries(sctp_client sctp)
 
+install(TARGETS sctp_server sctp_client DESTINATION bin)
+
