@@ -9,7 +9,7 @@
 
 #define PORT_NUM 7345
 #define NUM_PKT 1
-#define PAYLOAD_SIZE 1472
+#define PAYLOAD_SIZE 1400
 
 typedef struct {
     char payload[PAYLOAD_SIZE];
