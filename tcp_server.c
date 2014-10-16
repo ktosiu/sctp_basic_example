@@ -51,6 +51,7 @@ void server(const char* ip_master){
          }
          sleep(1);
     }
+    close( connect_sck );
 }
 
 int main(int argc, const char * argv[])

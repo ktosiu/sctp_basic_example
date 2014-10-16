@@ -45,6 +45,7 @@ void client(const char* ip_master){
             exit( EXIT_FAILURE );
         }   
     }
+    close( sck );
 }
 
 int main(int argc, const char * argv[])
